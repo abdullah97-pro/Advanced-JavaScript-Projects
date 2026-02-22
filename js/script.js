@@ -10,5 +10,8 @@ for (let i = 1; i <= 4; i++){
     const div = document.createElement('div');
     div.className = 'box';
     div.textContent = `Box ${i}`;
+
+    div.style.backgroundColor = "Blue";
+
     container.appendChild(div);
 }

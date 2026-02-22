@@ -12,7 +12,3 @@
     grid-template-columns: auto auto auto auto;
     gap: 3px;
 }
-
-.box {
-    background-color: blue;
-}
