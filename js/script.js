@@ -11,7 +11,7 @@ for (let i = 1; i <= 4; i++){
     div.className = 'box';
     div.textContent = `Box ${i}`;
 
-    div.style.backgroundColor = "Blue";
+    div.style.backgroundColor = `var(--color-2)`;
 
     container.appendChild(div);
 }
