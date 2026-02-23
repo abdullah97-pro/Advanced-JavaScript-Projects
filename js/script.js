@@ -5,6 +5,8 @@ let img = document.createElement('img');
 img.src = "./images/LOGO F.png";
 img.alt = "Logo";
 
+brand.style.background = "var(--color-4)";
+
 brand.appendChild(img);
 
 let links = [
